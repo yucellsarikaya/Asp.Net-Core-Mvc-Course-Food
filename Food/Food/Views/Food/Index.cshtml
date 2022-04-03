@@ -1,0 +1,40 @@
+﻿@model List<Food.Data.Models.FoodContent>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h2>Gıda Liste</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ürün Adı</th>
+                <th>Ücret</th>
+                <th>Stok Adedi</th>
+                <th>Kategori İsmi</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+                <th>Detay</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var x in Model)
+            {
+                <tr>
+                    <td>@x.FoodContentID</td>
+                    <td>@x.Name</td>
+                    <td>@x.Price</td>
+                    <td>@x.StockCount</td>
+                    <td>@x.Category.CategoryName</td>
+                    <td><a class="btn btn-danger">Sil</a></td>
+                    <td><a class="btn btn-info">Güncelle</a></td>
+                    <td><a class="btn btn-info">Detay</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="" class="btn btn-outline-primary">Yeni gıda ekle</a>
+</div>
+

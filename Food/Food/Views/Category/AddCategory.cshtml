@@ -1,0 +1,20 @@
+﻿@model Food.Data.Models.Category
+
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h1>Kategori Ekle</h1>
+    <br />
+    @using (Html.BeginForm("AddCategory", "Category", FormMethod.Post))
+    {
+        @Html.Label("Kategori İsmi")
+        @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Kategori Detay")
+        @Html.TextBoxFor(x => x.CategoryDescription, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-outline-success">Kaydet</button>
+    }
+</div>
