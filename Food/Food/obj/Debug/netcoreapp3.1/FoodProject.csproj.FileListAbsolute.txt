@@ -1,0 +1,8 @@
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.csproj.AssemblyReference.cache
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.AssemblyInfoInputs.cache
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.AssemblyInfo.cs
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.csproj.CoreCompileInputs.cache
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.RazorAssemblyInfo.cache
+C:\Users\sarik\Desktop\course\Asp.Net-Core-Mvc-Course-Food\Food\Food\obj\Debug\netcoreapp3.1\FoodProject.RazorAssemblyInfo.cs
